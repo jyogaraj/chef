@@ -72,13 +72,13 @@
     "filesystem": {
       "/dev/mapper/centos-root": {
         "kb_size": "28784916",
-        "kb_used": "6613096",
-        "kb_available": "22171820",
+        "kb_used": "6614304",
+        "kb_available": "22170612",
         "percent_used": "23%",
         "mount": "/",
         "total_inodes": "28798976",
-        "inodes_used": "267090",
-        "inodes_available": "28531886",
+        "inodes_used": "267409",
+        "inodes_available": "28531567",
         "inodes_percent_used": "1%",
         "fs_type": "xfs",
         "mount_options": [
@@ -157,8 +157,8 @@
       },
       "CHEF_Training": {
         "kb_size": "153087996",
-        "kb_used": "23723856",
-        "kb_available": "129364140",
+        "kb_used": "23723740",
+        "kb_available": "129364256",
         "percent_used": "16%",
         "mount": "/media/sf_CHEF_Training",
         "total_inodes": "1000",
@@ -638,9 +638,9 @@
     },
     "memory": {
       "swap": {
-        "cached": "1676kB",
+        "cached": "2696kB",
         "total": "2097148kB",
-        "free": "2073456kB"
+        "free": "2062332kB"
       },
       "hugepages": {
         "total": "0",
@@ -649,23 +649,23 @@
         "surplus": "0"
       },
       "total": "1883804kB",
-      "free": "78400kB",
+      "free": "84404kB",
       "buffers": "0kB",
-      "cached": "309060kB",
-      "active": "711512kB",
-      "inactive": "639372kB",
-      "dirty": "16kB",
+      "cached": "379188kB",
+      "active": "799200kB",
+      "inactive": "616496kB",
+      "dirty": "12kB",
       "writeback": "0kB",
-      "anon_pages": "1040232kB",
-      "mapped": "63120kB",
-      "slab": "343472kB",
-      "slab_reclaimable": "257708kB",
-      "slab_unreclaim": "85764kB",
-      "page_tables": "33508kB",
+      "anon_pages": "1033796kB",
+      "mapped": "60984kB",
+      "slab": "285752kB",
+      "slab_reclaimable": "208736kB",
+      "slab_unreclaim": "77016kB",
+      "page_tables": "33812kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "3039048kB",
-      "committed_as": "3771548kB",
+      "committed_as": "3784340kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "28056kB",
       "vmalloc_chunk": "34359705592kB",
@@ -911,16 +911,16 @@
           "enp0s3": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "7003030",
-              "packets": "61729",
+              "bytes": "7373719",
+              "packets": "63660",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "159014451",
-              "packets": "341698",
+              "bytes": "161877028",
+              "packets": "361653",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -976,10 +976,10 @@
     "platform": "centos",
     "platform_version": "7.3.1611",
     "platform_family": "rhel",
-    "uptime_seconds": 14587,
-    "uptime": "4 hours 03 minutes 07 seconds",
-    "idletime_seconds": 14127,
-    "idletime": "3 hours 55 minutes 27 seconds",
+    "uptime_seconds": 15647,
+    "uptime": "4 hours 20 minutes 47 seconds",
+    "idletime_seconds": 15140,
+    "idletime": "4 hours 12 minutes 20 seconds",
     "virtualization": {
       "systems": {
         "vbox": "guest"
@@ -1971,12 +1971,12 @@
       "by_device": {
         "/dev/mapper/centos-root": {
           "kb_size": "28784916",
-          "kb_used": "6613096",
-          "kb_available": "22171820",
+          "kb_used": "6614304",
+          "kb_available": "22170612",
           "percent_used": "23%",
           "total_inodes": "28798976",
-          "inodes_used": "267090",
-          "inodes_available": "28531886",
+          "inodes_used": "267409",
+          "inodes_available": "28531567",
           "inodes_percent_used": "1%",
           "fs_type": "xfs",
           "mount_options": [
@@ -2067,8 +2067,8 @@
         },
         "CHEF_Training": {
           "kb_size": "153087996",
-          "kb_used": "23723856",
-          "kb_available": "129364140",
+          "kb_used": "23723740",
+          "kb_available": "129364256",
           "percent_used": "16%",
           "total_inodes": "1000",
           "inodes_used": "0",
@@ -2326,12 +2326,12 @@
       "by_mountpoint": {
         "/": {
           "kb_size": "28784916",
-          "kb_used": "6613096",
-          "kb_available": "22171820",
+          "kb_used": "6614304",
+          "kb_available": "22170612",
           "percent_used": "23%",
           "total_inodes": "28798976",
-          "inodes_used": "267090",
-          "inodes_available": "28531886",
+          "inodes_used": "267409",
+          "inodes_available": "28531567",
           "inodes_percent_used": "1%",
           "fs_type": "rootfs",
           "mount_options": [
@@ -2453,8 +2453,8 @@
         },
         "/media/sf_CHEF_Training": {
           "kb_size": "153087996",
-          "kb_used": "23723856",
-          "kb_available": "129364140",
+          "kb_used": "23723740",
+          "kb_available": "129364256",
           "percent_used": "16%",
           "total_inodes": "1000",
           "inodes_used": "0",
@@ -2839,13 +2839,13 @@
         "/dev/mapper/centos-root,/": {
           "device": "/dev/mapper/centos-root",
           "kb_size": "28784916",
-          "kb_used": "6613096",
-          "kb_available": "22171820",
+          "kb_used": "6614304",
+          "kb_available": "22170612",
           "percent_used": "23%",
           "mount": "/",
           "total_inodes": "28798976",
-          "inodes_used": "267090",
-          "inodes_available": "28531886",
+          "inodes_used": "267409",
+          "inodes_available": "28531567",
           "inodes_percent_used": "1%",
           "fs_type": "xfs",
           "mount_options": [
@@ -2964,8 +2964,8 @@
         "CHEF_Training,/media/sf_CHEF_Training": {
           "device": "CHEF_Training",
           "kb_size": "153087996",
-          "kb_used": "23723856",
-          "kb_available": "129364140",
+          "kb_used": "23723740",
+          "kb_available": "129364256",
           "percent_used": "16%",
           "mount": "/media/sf_CHEF_Training",
           "total_inodes": "1000",
@@ -3459,7 +3459,7 @@
         ]
       }
     },
-    "ohai_time": 1489654427.8882763,
+    "ohai_time": 1489655487.1261797,
     "packages": {
       "libnfsidmap": {
         "epoch": "0",
@@ -12610,21 +12610,28 @@
       }
     },
     "recipes": [
-      "yogaraj::notif"
+      "apache",
+      "apache::default"
     ],
     "expanded_run_list": [
-      "yogaraj::notif"
+      "apache::default"
     ],
     "roles": [
 
     ],
     "cookbooks": {
-      "yogaraj": {
+      "apache": {
+        "version": "0.1.0"
+      },
+      "mysql": {
+        "version": "0.1.0"
+      },
+      "php": {
         "version": "0.1.0"
       }
     }
   },
   "run_list": [
-    "recipe[yogaraj::notif]"
+    "recipe[apache]"
   ]
 }
