@@ -72,13 +72,13 @@
     "filesystem": {
       "/dev/mapper/centos-root": {
         "kb_size": "28784916",
-        "kb_used": "6443812",
-        "kb_available": "22341104",
+        "kb_used": "6613096",
+        "kb_available": "22171820",
         "percent_used": "23%",
         "mount": "/",
         "total_inodes": "28798976",
-        "inodes_used": "265249",
-        "inodes_available": "28533727",
+        "inodes_used": "267090",
+        "inodes_available": "28531886",
         "inodes_percent_used": "1%",
         "fs_type": "xfs",
         "mount_options": [
@@ -157,8 +157,8 @@
       },
       "CHEF_Training": {
         "kb_size": "153087996",
-        "kb_used": "23712404",
-        "kb_available": "129375592",
+        "kb_used": "23723856",
+        "kb_available": "129364140",
         "percent_used": "16%",
         "mount": "/media/sf_CHEF_Training",
         "total_inodes": "1000",
@@ -638,9 +638,9 @@
     },
     "memory": {
       "swap": {
-        "cached": "2012kB",
+        "cached": "1676kB",
         "total": "2097148kB",
-        "free": "2083624kB"
+        "free": "2073456kB"
       },
       "hugepages": {
         "total": "0",
@@ -649,23 +649,23 @@
         "surplus": "0"
       },
       "total": "1883804kB",
-      "free": "215076kB",
+      "free": "78400kB",
       "buffers": "0kB",
-      "cached": "342896kB",
-      "active": "530264kB",
-      "inactive": "590064kB",
-      "dirty": "0kB",
+      "cached": "309060kB",
+      "active": "711512kB",
+      "inactive": "639372kB",
+      "dirty": "16kB",
       "writeback": "0kB",
-      "anon_pages": "775448kB",
-      "mapped": "58392kB",
-      "slab": "403852kB",
-      "slab_reclaimable": "308552kB",
-      "slab_unreclaim": "95300kB",
-      "page_tables": "32616kB",
+      "anon_pages": "1040232kB",
+      "mapped": "63120kB",
+      "slab": "343472kB",
+      "slab_reclaimable": "257708kB",
+      "slab_unreclaim": "85764kB",
+      "page_tables": "33508kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "3039048kB",
-      "committed_as": "3488828kB",
+      "committed_as": "3771548kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "28056kB",
       "vmalloc_chunk": "34359705592kB",
@@ -911,16 +911,16 @@
           "enp0s3": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "3210413",
-              "packets": "28536",
+              "bytes": "7003030",
+              "packets": "61729",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "66776955",
-              "packets": "249875",
+              "bytes": "159014451",
+              "packets": "341698",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -976,10 +976,10 @@
     "platform": "centos",
     "platform_version": "7.3.1611",
     "platform_family": "rhel",
-    "uptime_seconds": 12906,
-    "uptime": "3 hours 35 minutes 06 seconds",
-    "idletime_seconds": 12529,
-    "idletime": "3 hours 28 minutes 49 seconds",
+    "uptime_seconds": 14587,
+    "uptime": "4 hours 03 minutes 07 seconds",
+    "idletime_seconds": 14127,
+    "idletime": "3 hours 55 minutes 27 seconds",
     "virtualization": {
       "systems": {
         "vbox": "guest"
@@ -1500,6 +1500,13 @@
           "uid": 48,
           "shell": "/sbin/nologin",
           "gecos": "Apache"
+        },
+        "tomcat": {
+          "dir": "/usr/share/tomcat",
+          "gid": 91,
+          "uid": 91,
+          "shell": "/sbin/nologin",
+          "gecos": "Apache Tomcat"
         }
       },
       "group": {
@@ -1946,6 +1953,12 @@
           "members": [
 
           ]
+        },
+        "tomcat": {
+          "gid": 91,
+          "members": [
+
+          ]
         }
       }
     },
@@ -1958,12 +1971,12 @@
       "by_device": {
         "/dev/mapper/centos-root": {
           "kb_size": "28784916",
-          "kb_used": "6443812",
-          "kb_available": "22341104",
+          "kb_used": "6613096",
+          "kb_available": "22171820",
           "percent_used": "23%",
           "total_inodes": "28798976",
-          "inodes_used": "265249",
-          "inodes_available": "28533727",
+          "inodes_used": "267090",
+          "inodes_available": "28531886",
           "inodes_percent_used": "1%",
           "fs_type": "xfs",
           "mount_options": [
@@ -2054,8 +2067,8 @@
         },
         "CHEF_Training": {
           "kb_size": "153087996",
-          "kb_used": "23712404",
-          "kb_available": "129375592",
+          "kb_used": "23723856",
+          "kb_available": "129364140",
           "percent_used": "16%",
           "total_inodes": "1000",
           "inodes_used": "0",
@@ -2313,12 +2326,12 @@
       "by_mountpoint": {
         "/": {
           "kb_size": "28784916",
-          "kb_used": "6443812",
-          "kb_available": "22341104",
+          "kb_used": "6613096",
+          "kb_available": "22171820",
           "percent_used": "23%",
           "total_inodes": "28798976",
-          "inodes_used": "265249",
-          "inodes_available": "28533727",
+          "inodes_used": "267090",
+          "inodes_available": "28531886",
           "inodes_percent_used": "1%",
           "fs_type": "rootfs",
           "mount_options": [
@@ -2440,8 +2453,8 @@
         },
         "/media/sf_CHEF_Training": {
           "kb_size": "153087996",
-          "kb_used": "23712404",
-          "kb_available": "129375592",
+          "kb_used": "23723856",
+          "kb_available": "129364140",
           "percent_used": "16%",
           "total_inodes": "1000",
           "inodes_used": "0",
@@ -2826,13 +2839,13 @@
         "/dev/mapper/centos-root,/": {
           "device": "/dev/mapper/centos-root",
           "kb_size": "28784916",
-          "kb_used": "6443812",
-          "kb_available": "22341104",
+          "kb_used": "6613096",
+          "kb_available": "22171820",
           "percent_used": "23%",
           "mount": "/",
           "total_inodes": "28798976",
-          "inodes_used": "265249",
-          "inodes_available": "28533727",
+          "inodes_used": "267090",
+          "inodes_available": "28531886",
           "inodes_percent_used": "1%",
           "fs_type": "xfs",
           "mount_options": [
@@ -2951,8 +2964,8 @@
         "CHEF_Training,/media/sf_CHEF_Training": {
           "device": "CHEF_Training",
           "kb_size": "153087996",
-          "kb_used": "23712404",
-          "kb_available": "129375592",
+          "kb_used": "23723856",
+          "kb_available": "129364140",
           "percent_used": "16%",
           "mount": "/media/sf_CHEF_Training",
           "total_inodes": "1000",
@@ -3446,7 +3459,7 @@
         ]
       }
     },
-    "ohai_time": 1489652746.4839473,
+    "ohai_time": 1489654427.8882763,
     "packages": {
       "libnfsidmap": {
         "epoch": "0",
@@ -3651,6 +3664,13 @@
         "installdate": "1489497077",
         "arch": "noarch"
       },
+      "xml-commons-apis": {
+        "epoch": "0",
+        "version": "1.4.01",
+        "release": "16.el7",
+        "installdate": "1489652864",
+        "arch": "noarch"
+      },
       "xorg-x11-drv-v4l": {
         "epoch": "0",
         "version": "0.2.0",
@@ -3677,6 +3697,13 @@
         "version": "5.50",
         "release": "32.el7",
         "installdate": "1489497081",
+        "arch": "noarch"
+      },
+      "tomcat": {
+        "epoch": "0",
+        "version": "7.0.69",
+        "release": "10.el7",
+        "installdate": "1489652867",
         "arch": "noarch"
       },
       "libsecret": {
@@ -4211,6 +4238,13 @@
         "installdate": "1489497077",
         "arch": "noarch"
       },
+      "tomcat-servlet-3.0-api": {
+        "epoch": "0",
+        "version": "7.0.69",
+        "release": "10.el7",
+        "installdate": "1489652864",
+        "arch": "noarch"
+      },
       "xorg-x11-drv-synaptics": {
         "epoch": "0",
         "version": "1.8.2",
@@ -4244,6 +4278,13 @@
         "version": "0.9.4",
         "release": "4.el7",
         "installdate": "1489497079",
+        "arch": "noarch"
+      },
+      "apache-commons-logging": {
+        "epoch": "0",
+        "version": "1.1.2",
+        "release": "7.el7",
+        "installdate": "1489652867",
         "arch": "noarch"
       },
       "speech-dispatcher-python": {
@@ -4834,6 +4875,13 @@
         "installdate": "1489497027",
         "arch": "x86_64"
       },
+      "tomcat-lib": {
+        "epoch": "0",
+        "version": "7.0.69",
+        "release": "10.el7",
+        "installdate": "1489652866",
+        "arch": "noarch"
+      },
       "brltty": {
         "epoch": "0",
         "version": "4.5",
@@ -5393,6 +5441,13 @@
         "release": "3.el7",
         "installdate": "1489496792",
         "arch": "x86_64"
+      },
+      "tomcat-el-2.2-api": {
+        "epoch": "0",
+        "version": "7.0.69",
+        "release": "10.el7",
+        "installdate": "1489652865",
+        "arch": "noarch"
       },
       "wvdial": {
         "epoch": "0",
@@ -6052,6 +6107,13 @@
         "installdate": "1489497077",
         "arch": "noarch"
       },
+      "apache-commons-pool": {
+        "epoch": "0",
+        "version": "1.6",
+        "release": "9.el7",
+        "installdate": "1489652864",
+        "arch": "noarch"
+      },
       "xdg-utils": {
         "epoch": "0",
         "version": "1.1.0",
@@ -6065,6 +6127,13 @@
         "release": "4.el7_0",
         "installdate": "1489497027",
         "arch": "x86_64"
+      },
+      "tomcat-jsp-2.2-api": {
+        "epoch": "0",
+        "version": "7.0.69",
+        "release": "10.el7",
+        "installdate": "1489652865",
+        "arch": "noarch"
       },
       "mozjs17": {
         "epoch": "0",
@@ -6086,6 +6155,13 @@
         "release": "21.el7",
         "installdate": "1489497209",
         "arch": "x86_64"
+      },
+      "log4j": {
+        "epoch": "0",
+        "version": "1.2.17",
+        "release": "15.el7",
+        "installdate": "1489652867",
+        "arch": "noarch"
       },
       "trousers": {
         "epoch": "0",
@@ -7158,6 +7234,13 @@
         "installdate": "1489497077",
         "arch": "noarch"
       },
+      "xml-commons-resolver": {
+        "epoch": "0",
+        "version": "1.2",
+        "release": "15.el7",
+        "installdate": "1489652864",
+        "arch": "noarch"
+      },
       "libvorbis": {
         "epoch": "1",
         "version": "1.3.3",
@@ -7178,6 +7261,13 @@
         "release": "4.el7",
         "installdate": "1489497078",
         "arch": "noarch"
+      },
+      "ecj": {
+        "epoch": "1",
+        "version": "4.2.1",
+        "release": "8.el7",
+        "installdate": "1489652865",
+        "arch": "x86_64"
       },
       "unzip": {
         "epoch": "0",
@@ -8292,6 +8382,13 @@
         "installdate": "1489496700",
         "arch": "x86_64"
       },
+      "apache-commons-collections": {
+        "epoch": "0",
+        "version": "3.2.1",
+        "release": "22.el7_2",
+        "installdate": "1489652864",
+        "arch": "noarch"
+      },
       "python-six": {
         "epoch": "0",
         "version": "1.9.0",
@@ -8319,6 +8416,13 @@
         "release": "8.el7",
         "installdate": "1489497027",
         "arch": "x86_64"
+      },
+      "apache-commons-dbcp": {
+        "epoch": "0",
+        "version": "1.4",
+        "release": "17.el7",
+        "installdate": "1489652865",
+        "arch": "noarch"
       },
       "python-setuptools": {
         "epoch": "0",
@@ -8354,6 +8458,13 @@
         "release": "9.el7",
         "installdate": "1489497028",
         "arch": "x86_64"
+      },
+      "avalon-logkit": {
+        "epoch": "0",
+        "version": "2.1",
+        "release": "14.el7",
+        "installdate": "1489652867",
+        "arch": "noarch"
       },
       "postfix": {
         "epoch": "2",
@@ -9440,6 +9551,13 @@
         "installdate": "1489496700",
         "arch": "x86_64"
       },
+      "xerces-j2": {
+        "epoch": "0",
+        "version": "2.11.0",
+        "release": "17.el7_0",
+        "installdate": "1489652865",
+        "arch": "noarch"
+      },
       "fros": {
         "epoch": "0",
         "version": "1.0",
@@ -9467,6 +9585,13 @@
         "release": "15.el7",
         "installdate": "1489496702",
         "arch": "x86_64"
+      },
+      "javamail": {
+        "epoch": "0",
+        "version": "1.4.6",
+        "release": "8.el7",
+        "installdate": "1489652867",
+        "arch": "noarch"
       },
       "usbutils": {
         "epoch": "0",
@@ -10497,6 +10622,13 @@
         "installdate": "1489497345",
         "arch": "x86_64"
       },
+      "apache-commons-daemon": {
+        "epoch": "0",
+        "version": "1.0.13",
+        "release": "6.el7",
+        "installdate": "1489652865",
+        "arch": "x86_64"
+      },
       "pkgconfig": {
         "epoch": "1",
         "version": "0.27.1",
@@ -11057,6 +11189,13 @@
         "installdate": "1489497141",
         "arch": "noarch"
       },
+      "geronimo-jta": {
+        "epoch": "0",
+        "version": "1.1.1",
+        "release": "17.el7",
+        "installdate": "1489652865",
+        "arch": "noarch"
+      },
       "atk": {
         "epoch": "0",
         "version": "2.14.0",
@@ -11559,6 +11698,13 @@
         "version": "1.2.1",
         "release": "8.el7",
         "installdate": "1489497077",
+        "arch": "noarch"
+      },
+      "xalan-j2": {
+        "epoch": "0",
+        "version": "2.7.1",
+        "release": "23.el7",
+        "installdate": "1489652864",
         "arch": "noarch"
       },
       "xorg-x11-drv-wacom": {
@@ -12079,6 +12225,13 @@
         "installdate": "1489496790",
         "arch": "noarch"
       },
+      "geronimo-jms": {
+        "epoch": "0",
+        "version": "1.1.1",
+        "release": "19.el7",
+        "installdate": "1489652864",
+        "arch": "noarch"
+      },
       "xorg-x11-drv-vesa": {
         "epoch": "0",
         "version": "2.3.2",
@@ -12113,6 +12266,13 @@
         "release": "3.el7",
         "installdate": "1489496808",
         "arch": "x86_64"
+      },
+      "avalon-framework": {
+        "epoch": "0",
+        "version": "4.3",
+        "release": "10.el7",
+        "installdate": "1489652867",
+        "arch": "noarch"
       },
       "pango": {
         "epoch": "0",
@@ -12450,10 +12610,10 @@
       }
     },
     "recipes": [
-      "yogaraj::zip"
+      "yogaraj::notif"
     ],
     "expanded_run_list": [
-      "yogaraj::zip"
+      "yogaraj::notif"
     ],
     "roles": [
 
@@ -12465,6 +12625,6 @@
     }
   },
   "run_list": [
-    "recipe[yogaraj::zip]"
+    "recipe[yogaraj::notif]"
   ]
 }
