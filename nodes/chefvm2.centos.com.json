@@ -72,13 +72,13 @@
     "filesystem": {
       "/dev/mapper/centos-root": {
         "kb_size": "28784916",
-        "kb_used": "6417044",
-        "kb_available": "22367872",
+        "kb_used": "6443812",
+        "kb_available": "22341104",
         "percent_used": "23%",
         "mount": "/",
         "total_inodes": "28798976",
-        "inodes_used": "263900",
-        "inodes_available": "28535076",
+        "inodes_used": "265249",
+        "inodes_available": "28533727",
         "inodes_percent_used": "1%",
         "fs_type": "xfs",
         "mount_options": [
@@ -157,8 +157,8 @@
       },
       "CHEF_Training": {
         "kb_size": "153087996",
-        "kb_used": "23690356",
-        "kb_available": "129397640",
+        "kb_used": "23712404",
+        "kb_available": "129375592",
         "percent_used": "16%",
         "mount": "/media/sf_CHEF_Training",
         "total_inodes": "1000",
@@ -638,9 +638,9 @@
     },
     "memory": {
       "swap": {
-        "cached": "28kB",
+        "cached": "2012kB",
         "total": "2097148kB",
-        "free": "2091188kB"
+        "free": "2083624kB"
       },
       "hugepages": {
         "total": "0",
@@ -649,23 +649,23 @@
         "surplus": "0"
       },
       "total": "1883804kB",
-      "free": "195324kB",
+      "free": "215076kB",
       "buffers": "0kB",
-      "cached": "337560kB",
-      "active": "638096kB",
-      "inactive": "482324kB",
+      "cached": "342896kB",
+      "active": "530264kB",
+      "inactive": "590064kB",
       "dirty": "0kB",
       "writeback": "0kB",
-      "anon_pages": "782920kB",
-      "mapped": "93380kB",
-      "slab": "415600kB",
-      "slab_reclaimable": "318312kB",
-      "slab_unreclaim": "97288kB",
-      "page_tables": "32584kB",
+      "anon_pages": "775448kB",
+      "mapped": "58392kB",
+      "slab": "403852kB",
+      "slab_reclaimable": "308552kB",
+      "slab_unreclaim": "95300kB",
+      "page_tables": "32616kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "3039048kB",
-      "committed_as": "3488664kB",
+      "committed_as": "3488828kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "28056kB",
       "vmalloc_chunk": "34359705592kB",
@@ -911,16 +911,16 @@
           "enp0s3": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "2735619",
-              "packets": "24324",
+              "bytes": "3210413",
+              "packets": "28536",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "56883057",
-              "packets": "199525",
+              "bytes": "66776955",
+              "packets": "249875",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -976,10 +976,10 @@
     "platform": "centos",
     "platform_version": "7.3.1611",
     "platform_family": "rhel",
-    "uptime_seconds": 9991,
-    "uptime": "2 hours 46 minutes 31 seconds",
-    "idletime_seconds": 9645,
-    "idletime": "2 hours 40 minutes 45 seconds",
+    "uptime_seconds": 12906,
+    "uptime": "3 hours 35 minutes 06 seconds",
+    "idletime_seconds": 12529,
+    "idletime": "3 hours 28 minutes 49 seconds",
     "virtualization": {
       "systems": {
         "vbox": "guest"
@@ -1958,12 +1958,12 @@
       "by_device": {
         "/dev/mapper/centos-root": {
           "kb_size": "28784916",
-          "kb_used": "6417044",
-          "kb_available": "22367872",
+          "kb_used": "6443812",
+          "kb_available": "22341104",
           "percent_used": "23%",
           "total_inodes": "28798976",
-          "inodes_used": "263900",
-          "inodes_available": "28535076",
+          "inodes_used": "265249",
+          "inodes_available": "28533727",
           "inodes_percent_used": "1%",
           "fs_type": "xfs",
           "mount_options": [
@@ -2054,8 +2054,8 @@
         },
         "CHEF_Training": {
           "kb_size": "153087996",
-          "kb_used": "23690356",
-          "kb_available": "129397640",
+          "kb_used": "23712404",
+          "kb_available": "129375592",
           "percent_used": "16%",
           "total_inodes": "1000",
           "inodes_used": "0",
@@ -2313,12 +2313,12 @@
       "by_mountpoint": {
         "/": {
           "kb_size": "28784916",
-          "kb_used": "6417044",
-          "kb_available": "22367872",
+          "kb_used": "6443812",
+          "kb_available": "22341104",
           "percent_used": "23%",
           "total_inodes": "28798976",
-          "inodes_used": "263900",
-          "inodes_available": "28535076",
+          "inodes_used": "265249",
+          "inodes_available": "28533727",
           "inodes_percent_used": "1%",
           "fs_type": "rootfs",
           "mount_options": [
@@ -2440,8 +2440,8 @@
         },
         "/media/sf_CHEF_Training": {
           "kb_size": "153087996",
-          "kb_used": "23690356",
-          "kb_available": "129397640",
+          "kb_used": "23712404",
+          "kb_available": "129375592",
           "percent_used": "16%",
           "total_inodes": "1000",
           "inodes_used": "0",
@@ -2826,13 +2826,13 @@
         "/dev/mapper/centos-root,/": {
           "device": "/dev/mapper/centos-root",
           "kb_size": "28784916",
-          "kb_used": "6417044",
-          "kb_available": "22367872",
+          "kb_used": "6443812",
+          "kb_available": "22341104",
           "percent_used": "23%",
           "mount": "/",
           "total_inodes": "28798976",
-          "inodes_used": "263900",
-          "inodes_available": "28535076",
+          "inodes_used": "265249",
+          "inodes_available": "28533727",
           "inodes_percent_used": "1%",
           "fs_type": "xfs",
           "mount_options": [
@@ -2951,8 +2951,8 @@
         "CHEF_Training,/media/sf_CHEF_Training": {
           "device": "CHEF_Training",
           "kb_size": "153087996",
-          "kb_used": "23690356",
-          "kb_available": "129397640",
+          "kb_used": "23712404",
+          "kb_available": "129375592",
           "percent_used": "16%",
           "mount": "/media/sf_CHEF_Training",
           "total_inodes": "1000",
@@ -3446,7 +3446,7 @@
         ]
       }
     },
-    "ohai_time": 1489649831.120777,
+    "ohai_time": 1489652746.4839473,
     "packages": {
       "libnfsidmap": {
         "epoch": "0",
@@ -4790,6 +4790,13 @@
         "version": "50.1.2",
         "release": "15.el7",
         "installdate": "1489497026",
+        "arch": "x86_64"
+      },
+      "git": {
+        "epoch": "0",
+        "version": "1.8.3.1",
+        "release": "6.el7_2.1",
+        "installdate": "1489650008",
         "arch": "x86_64"
       },
       "xorg-x11-drv-void": {
@@ -7123,6 +7130,13 @@
         "installdate": "1489497139",
         "arch": "x86_64"
       },
+      "perl-TermReadKey": {
+        "epoch": "0",
+        "version": "2.30",
+        "release": "20.el7",
+        "installdate": "1489650006",
+        "arch": "x86_64"
+      },
       "procps-ng": {
         "epoch": "0",
         "version": "3.3.10",
@@ -9391,6 +9405,13 @@
         "installdate": "1489496699",
         "arch": "x86_64"
       },
+      "perl-Git": {
+        "epoch": "0",
+        "version": "1.8.3.1",
+        "release": "6.el7_2.1",
+        "installdate": "1489650009",
+        "arch": "noarch"
+      },
       "python-di": {
         "epoch": "0",
         "version": "0.3",
@@ -10433,6 +10454,13 @@
         "release": "1.el7",
         "installdate": "1489496698",
         "arch": "x86_64"
+      },
+      "perl-Error": {
+        "epoch": "1",
+        "version": "0.17020",
+        "release": "2.el7",
+        "installdate": "1489650006",
+        "arch": "noarch"
       },
       "libogg": {
         "epoch": "2",
@@ -12422,10 +12450,10 @@
       }
     },
     "recipes": [
-      "yogaraj::git"
+      "yogaraj::zip"
     ],
     "expanded_run_list": [
-      "yogaraj::git"
+      "yogaraj::zip"
     ],
     "roles": [
 
@@ -12437,6 +12465,6 @@
     }
   },
   "run_list": [
-    "recipe[yogaraj::git]"
+    "recipe[yogaraj::zip]"
   ]
 }
